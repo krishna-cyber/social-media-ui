@@ -1,10 +1,13 @@
 import SearchIcon from "@mui/icons-material/Search";
 import PersonIcon from "@mui/icons-material/Person";
+import ChatIcon from "@mui/icons-material/Chat";
+import NotificationsIcon from "@mui/icons-material/Notifications";
+import "./Topbar.css";
 const Topbar = () => {
   return (
     <div className='topbarContainer'>
       <div className='topbarLeft'>
-        <span className='Logo'>Krishna Social</span>
+        <span className='logo'>Krishna Social</span>
       </div>
       <div className='topbarCenter'>
         <div className='searchBar'>
@@ -26,7 +29,16 @@ const Topbar = () => {
             <PersonIcon />
             <span className='topbarIconBadge'>1</span>
           </div>
+          <div className='topbarIconItem'>
+            <ChatIcon />
+            <span className='topbarIconBadge'>1</span>
+          </div>
+          <div className='topbarIconItem'>
+            <NotificationsIcon />
+            <span className='topbarIconBadge'>1</span>
+          </div>
         </div>
+        <img src='./assets/persons/5.jpg' alt='Profile' className='topbarImg' />
       </div>
     </div>
   );
