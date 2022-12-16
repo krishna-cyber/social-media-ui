@@ -1,0 +1,48 @@
+export const posts = [
+  {
+    id: 1,
+    desc: "Love For All, Hatred For None.",
+    photo: "src\\assets\\post\\3.jpg",
+    date: "5 mins ago",
+    userId: 1,
+    like: 32,
+    comment: 9,
+  },
+  {
+    id: 2,
+    desc: "Every moment, every hour, every day, every week, every year, gets better and better.",
+
+    photo: "src\\assets\\post\\1.jpg",
+    date: "15 mins ago",
+    userId: 2,
+    like: 2,
+    comment: 1,
+  },
+  {
+    id: 3,
+    desc: "Change the world by being yourself.",
+    photo: "src\\assets\\post\\2.jpg",
+    date: "1 hour ago",
+    userId: 3,
+    like: 61,
+    comment: 2,
+  },
+  {
+    id: 4,
+    desc: "Never regret anything that made you smile.",
+    photo: "src\\assets\\post\\1.jpg",
+    date: "4 hours ago",
+    userId: 4,
+    like: 7,
+    comment: 3,
+  },
+  {
+    id: 5,
+    desc: "Die with memories, not dreams.",
+    photo: "src\\assets\\post\\3.jpg",
+    date: "5 hours ago",
+    userId: 5,
+    like: 23,
+    comment: 5,
+  },
+];
